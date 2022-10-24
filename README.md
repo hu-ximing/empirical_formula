@@ -19,7 +19,7 @@ Output:
 
 3 elements (C, H, O)  
 molar mass: carbon 12.01, hydrogen 1.01, oxygen 16  
-percentage: 58.8% carbon, 9.80% hydrogen and 31.4% oxygen
+percentage: 58.8%, 9.80%, 31.4%
 
 ### Example Input:
 
@@ -40,7 +40,7 @@ percentage: 58.8% carbon, 9.80% hydrogen and 31.4% oxygen
 
 4 elements (C, H, N, O)  
 molar mass: 12.01 1.01 14.01 16.00  
-percentage: from the third line of input to the end
+percentage: 67.31% 6.98% 4.62% 21.10%
 
 ### Example Input:
 
