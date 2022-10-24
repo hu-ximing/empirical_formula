@@ -17,8 +17,8 @@ Output:
 
 ## Example 1
 
-3 elements (C, H, O)
-molar mass: carbon 12.01, hydrogen 1.01, oxygen 16
+3 elements (C, H, O)  
+molar mass: carbon 12.01, hydrogen 1.01, oxygen 16  
 percentage: 58.8% carbon, 9.80% hydrogen and 31.4% oxygen
 
 ### Example Input:
