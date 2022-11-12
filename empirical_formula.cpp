@@ -17,7 +17,7 @@ void print_vector(vector<int> &v)
     cout << "\n";
 }
 
-// find greatest common divisor of positive numbers
+// find greatest common divisor of multiple positive numbers
 int gcd(vector<int> nums)
 {
     // find min value in array except 0
@@ -76,7 +76,6 @@ double round_mole(double f)
 int main()
 {
     int n, i;
-
     // >> Number of elements
     cin >> n;
     vector<Element> elems(n);
@@ -86,13 +85,11 @@ int main()
     {
         cin >> elems[i].molar_mass;
     }
-
     // >> Mass/percentage
     for (i = 0; i < n; ++i)
     {
         cin >> elems[i].mass;
     }
-
     // Find the number of moles of each element in the 100g sample.
     for (i = 0; i < n; ++i)
     {
@@ -116,20 +113,17 @@ int main()
     {
         elems[i].mole /= smallest_mole;
     }
-
     // << Original ratio
     for (i = 0; i < n; ++i)
     {
         cout << elems[i].mole << ' ';
     }
     cout << "\n";
-
     // whole-number ratio
     for (i = 0; i < n; ++i)
     {
         elems[i].mole = round_mole(elems[i].mole) * 12;
     }
-
     // reduce whole-number ratio
     vector<int> emp(n);
     for (i = 0; i < n; ++i)
@@ -137,9 +131,7 @@ int main()
         emp[i] = (int)(elems[i].mole + 0.5);
     }
     reduce(emp);
-
     // << Empirical Formula
     print_vector(emp);
-    
     return 0;
 }

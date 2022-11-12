@@ -1,19 +1,19 @@
+# Empirical Formula
+
 ## Description
 
 Calculate empirical formula (ratio of particles)
 
-## Specification:
+### Input Specification
 
-```
-Input:
-	Number of elements
-	Molar mass * n
-	Mass or percentage * n
+1. Number of elements
+2. Molar mass * n
+3. Mass or percentage * n
 
-Output:
-	Original ratio
-	Empirical Formula
-```
+### Output Specification
+
+1. Original ratio
+2. Empirical Formula
 
 ## Example 1
 
@@ -21,17 +21,17 @@ Output:
 molar mass: carbon 12.01, hydrogen 1.01, oxygen 16  
 percentage: 58.8%, 9.80%, 31.4%
 
-### Example Input:
+### Sample Input 1
 
-```
+``` console
 3
 12.01 1.01 16
 58.8 9.8 31.4
 ```
 
-### Example Result:
+### Output for Sample Input 1
 
-```
+``` console
 2.49474 4.94419 1
 5 10 2
 ```
@@ -42,23 +42,24 @@ percentage: 58.8%, 9.80%, 31.4%
 molar mass: 12.01 1.01 14.01 16.00  
 percentage: 67.31% 6.98% 4.62% 21.10%
 
-### Example Input:
+### Sample Input 2
 
-```
+``` console
 4
 12.01 1.01 14.01 16
 67.31 6.98 4.62 21.10
 ```
 
-### Example Result:
+### Output for Sample Input 2
 
-```
+``` console
 16.9955 20.9571 1 3.99907
 17 21 1 4
 ```
 
 ## More examples
-```
+
+``` console
 Mass or percentage:
 67.31 6.98 4.62 21.10
 63.15 5.30 0 31.55
